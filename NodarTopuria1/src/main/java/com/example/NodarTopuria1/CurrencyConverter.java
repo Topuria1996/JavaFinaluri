@@ -7,5 +7,5 @@ import javax.jws.WebService;
 public interface CurrencyConverter {
 
     @WebMethod
-     Double convert(Double value,String fromCode,String toCode);
+     Double convert(Double value,String fromCode);
 }
